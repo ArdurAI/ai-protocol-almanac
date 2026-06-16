@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "name": "Context Protocols, Authentication & Integration Almanac Roster",
+    "version": "2026-06",
+    "generated_at": "2026-06-16T22:46:00Z",
+    "total_tools": 46,
+    "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+  },
+  "category": "context-protocols",
+  "category_name": "Context Protocols, Authentication & Integration",
+  "tools": [
+    {
+      "name": "MCP (Model Context Protocol)",
+      "type": "Protocol",
+      "license": "MIT (Open)",
+      "tier": "A",
+      "notes": "97M monthly SDK downloads; agent-to-tool communication; Anthropic → AAIF/LF; JSON-RPC over stdio/HTTP"
+    },
+    {
+      "name": "A2A (Agent-to-Agent)",
+      "type": "Protocol",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "150+ orgs in production; agent-to-agent coordination; Google → Linux Foundation; Agent Cards"
+    },
+    {
+      "name": "ACP (Agent Communication Protocol)",
+      "type": "Protocol",
+      "license": "Apache-2.0",
+      "tier": "B",
+      "notes": "~1,013 (archived); IBM → merged into A2A Aug 2025; REST-native; archived"
+    },
+    {
+      "name": "ANP (Agent Network Protocol)",
+      "type": "Protocol",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Decentralized agent collaboration; P2P, DID-based identity, JSON-LD; open internet focus"
+    },
+    {
+      "name": "UCP (Universal Commerce Protocol)",
+      "type": "Protocol",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "20+ retail partners; Google + Shopify; agent-driven commerce; MCP/A2A compatible"
+    },
+    {
+      "name": "x402",
+      "type": "Protocol",
+      "license": "Open",
+      "tier": "A",
+      "notes": "150M+ transactions; Coinbase → Linux Foundation; HTTP 402 stablecoin payments; 10+ chains"
+    },
+    {
+      "name": "AP2 (Agent Payments Protocol)",
+      "type": "Protocol",
+      "license": "Open",
+      "tier": "B",
+      "notes": "Google ecosystem; payment authorization; cryptographically signed mandates; integrates with UCP"
+    },
+    {
+      "name": "MPP (Stripe)",
+      "type": "Protocol",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Early 2026 launch; Stripe + Tempo; session-based micropayments; fiat + stablecoin"
+    },
+    {
+      "name": "AGEX",
+      "type": "Protocol",
+      "license": "Research",
+      "tier": "C",
+      "notes": "Academic; agent credential lifecycle; complete protocol spec with AIDs, Delegation Chains, ARP"
+    },
+    {
+      "name": "OAN",
+      "type": "Protocol",
+      "license": "Research",
+      "tier": "C",
+      "notes": "Academic; trust-governed agent identity; layered stack: Identity, Discovery, Invocation, Governance"
+    },
+    {
+      "name": "NANDA",
+      "type": "Protocol",
+      "license": "Open",
+      "tier": "C",
+      "notes": "Community; DNS for AI agents; decentralized agent registry; AgentAddr + AgentFacts; ZTAA framework"
+    },
+    {
+      "name": "Agora Protocol",
+      "type": "Protocol",
+      "license": "Research",
+      "tier": "C",
+      "notes": "Academic; IoA scalable communication; structured routines + natural language interfaces"
+    },
+    {
+      "name": "AConP (Cisco)",
+      "type": "Protocol",
+      "license": "Draft",
+      "tier": "C",
+      "notes": "Drafting; LAN agent invocation; OpenAPI/JSON-based; standard interface for local agents"
+    },
+    {
+      "name": "WIMSE (IETF)",
+      "type": "Standard",
+      "license": "IETF Draft",
+      "tier": "A",
+      "notes": "Active WG; workload identity; SPIFFE successor; architecture + token formats; RFC expected 2027-2028"
+    },
+    {
+      "name": "AIMS (IETF)",
+      "type": "Standard",
+      "license": "IETF Draft",
+      "tier": "A",
+      "notes": "Q1 2026; AI agent auth/authz; draft-klrc-aiagent-auth-01; `agent_assertion` grant type"
+    },
+    {
+      "name": "SCIM for Agents",
+      "type": "Standard",
+      "license": "IETF Draft",
+      "tier": "A",
+      "notes": "Q1 2026; agent lifecycle mgmt; draft-abbey-scim-agent-extension; Agents + AgenticApplications resources"
+    },
+    {
+      "name": "Authed",
+      "type": "Auth Protocol",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Early access; agent-to-agent auth; unique agent IDs, dynamic tokens, registry; no static credentials"
+    },
+    {
+      "name": "Agent Name Service (ANS)",
+      "type": "Discovery",
+      "license": "Proposal",
+      "tier": "C",
+      "notes": "Research; agent identity resolution; PKI-backed directory; maps agent IDs to capabilities/keys/endpoints"
+    },
+    {
+      "name": "Vercel AI SDK",
+      "type": "SDK",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "Widely adopted; multi-provider AI apps; TypeScript; 20+ providers; React/Next.js hooks; streaming-first"
+    },
+    {
+      "name": "OpenAI Agents SDK",
+      "type": "SDK",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "10M+ npm/week; OpenAI-native agents; Python/TypeScript; MCP support; handoffs, guardrails, tracing"
+    },
+    {
+      "name": "Anthropic SDK",
+      "type": "SDK",
+      "license": "Open Source",
+      "tier": "A",
+      "notes": "High; Claude-native apps; extended thinking, prompt caching, computer use tools"
+    },
+    {
+      "name": "Smithery",
+      "type": "Registry",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "3,305+ servers; MCP server hosting; free remote hosting; CLI + SDK; verified servers; security breach 2025"
+    },
+    {
+      "name": "Glama",
+      "type": "Registry",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "22,000+ servers; MCP discovery + hosting; Firecracker VM isolation; AI chat interface; 3 free servers"
+    },
+    {
+      "name": "mcp.so",
+      "type": "Registry",
+      "license": "Free",
+      "tier": "B",
+      "notes": "17,186+ servers; MCP directory; largest catalog; multi-language; playground; no hosting"
+    },
+    {
+      "name": "PulseMCP",
+      "type": "Registry",
+      "license": "Free",
+      "tier": "B",
+      "notes": "6,970+ servers; MCP news/registry; weekly newsletter; REST API; official registry connection"
+    },
+    {
+      "name": "MCPize",
+      "type": "Platform",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "500+ servers; MCP monetization; 80% revenue share; OpenAPI→MCP; affiliate program"
+    },
+    {
+      "name": "Portkey",
+      "type": "AI Gateway",
+      "license": "Commercial + OSS",
+      "tier": "A",
+      "notes": "Production; AI observability + routing; 250+ models; MCP Gateway (GA Jan 2026); open source March 2026"
+    },
+    {
+      "name": "TrueFoundry",
+      "type": "AI Gateway",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Enterprise; model management at scale; multi-cloud; RBAC, OAuth 2.0, guardrails; 30% cost efficiency"
+    },
+    {
+      "name": "ZenMux",
+      "type": "AI Gateway",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Enterprise; multi-LLM access; unified API; intelligent routing; LLM Insurance"
+    },
+    {
+      "name": "Google Apigee",
+      "type": "AI Gateway",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "GCP-native; zero-code MCP generation; Model Armor; Vertex AI integration; $2,500+/mo"
+    },
+    {
+      "name": "Gravitee",
+      "type": "AI Gateway",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Enterprise; unified API/AI governance; Agent Gateway, Agentic IAM, Agent Tool Server, Catalog"
+    },
+    {
+      "name": "Cloudflare MCP Gateway",
+      "type": "Gateway",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Widely used; MCP reverse proxy; centralized auth, logging, rate-limiting; canonical example"
+    },
+    {
+      "name": "HashiCorp Vault",
+      "type": "Secrets Mgmt",
+      "license": "Open + Enterprise",
+      "tier": "A",
+      "notes": "Enterprise standard; secret rotation; dynamic secrets, multi-auth, transit encryption"
+    },
+    {
+      "name": "AWS Secrets Manager",
+      "type": "Secrets Mgmt",
+      "license": "Commercial",
+      "tier": "A",
+      "notes": "AWS-native; secret rotation; automated rotation via Lambda; KMS encryption; costly at scale"
+    },
+    {
+      "name": "API Stronghold",
+      "type": "API Key Mgmt",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Growing; scoped credentials; zero-knowledge; AES-256; automated rotation; team access control"
+    },
+    {
+      "name": "Stytch",
+      "type": "Auth Platform",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Production; agent auth; Connected Apps; MCP auth server; consent + token management"
+    },
+    {
+      "name": "Scalekit",
+      "type": "Auth Platform",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Production; B2B agent auth; OAuth for AI agents; OBO tokens; delegated auth; audit trails"
+    },
+    {
+      "name": "Aembit",
+      "type": "Auth Platform",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Enterprise; MCP authorization; OAuth 2.1, PRMs, workload identity; agent access platform"
+    },
+    {
+      "name": "Knostic",
+      "type": "Security",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Research; MCP security scan; found 100% of 2,000 MCP servers lacked authentication"
+    },
+    {
+      "name": "DataDome",
+      "type": "Security",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Production; MCP protection; real-time intent analysis; tool poisoning detection"
+    },
+    {
+      "name": "Invariant Labs",
+      "type": "Security",
+      "license": "Research",
+      "tier": "B",
+      "notes": "Academic; MCP threat research; demonstrated tool poisoning attacks April 2025"
+    },
+    {
+      "name": "Trulioo KYA",
+      "type": "Trust",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Production; agent verification; Digital Agent Passports; Know Your Agent"
+    },
+    {
+      "name": "Visa TAP",
+      "type": "Trust",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Early; trusted agents; Trusted Agent Protocol; payment-network level trust"
+    },
+    {
+      "name": "ERC-8004 (Trustless Agents)",
+      "type": "On-chain",
+      "license": "Open",
+      "tier": "C",
+      "notes": "Mainnet Jan 2026; identity + reputation; on-chain registries for identity, reputation, capability validation"
+    },
+    {
+      "name": "OpenClaw",
+      "type": "Agent Platform",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "Community; skill marketplace; 1,184 malicious skills found in ClawHub"
+    },
+    {
+      "name": "BeeAI (IBM)",
+      "type": "Agent Platform",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "1,013 stars (ACP); multi-agent runtime; formerly ACP-powered; now A2A-based"
+    }
+  ]
+}
