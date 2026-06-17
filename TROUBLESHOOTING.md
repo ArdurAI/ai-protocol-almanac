@@ -63,32 +63,28 @@ This is the most important file in the repo. It is the single source of truth.
 ```json
 {
   "meta": { ... },
-  "standards": {
-    "standard-key": {
-      "name": "...",
-      "description": "...",
-      "estimated_total": N,
-      "protocols": [
-        { "name": "...", "type": "...", "license": "...", "tier": "A|B|C", "transport": "...", "governance": "...", "notes": "..." }
-      ]
-    }
-  }
+  "category": "context-protocols",
+  "category_name": "Context Protocols, Authentication & Integration",
+  "tools": [
+    { "name": "...", "type": "...", "license": "...", "tier": "A|B|C", "notes": "..." }
+  ]
 }
+```
 ```
 
 **How to query it**:
 ```bash
-# Find all Tier A protocols in a standard
-jq '.standards."mcp".protocols[] | select(.tier == "A") | .name' data/roster.json
+# Find all Tier A tools
+jq '.tools[] | select(.tier == "A") | .name' data/roster.json
 
-# Count protocols by tier
-jq '.standards | to_entries[] | .value.protocols | group_by(.tier) | map({tier: .[0].tier, count: length})' data/roster.json
+# Count tools by tier
+jq '[.tools[] | .tier] | group_by(.) | map({tier: .[0], count: length})' data/roster.json
 
-# Find all MIT-licensed protocols
-jq '.. | objects | select(.license == "MIT") | .name' data/roster.json
+# Find all MIT-licensed tools
+jq '.tools[] | select(.license | contains("MIT")) | .name' data/roster.json
 
-# Find all WebSocket-based protocols
-jq '.. | objects | select(.transport | contains("WebSocket")) | .name' data/roster.json
+# Find all Protocols
+jq '.tools[] | select(.type == "Protocol") | .name' data/roster.json
 ```
 
 ### The edition markdown

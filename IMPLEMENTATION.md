@@ -49,8 +49,14 @@ ai-protocol-almanac/
 ├── data/
 │   └── roster.json                  # Machine-readable catalog (46 protocols)
 │
-├── tools/                             # Per-protocol deep-dive pages (placeholder)
-│   └── (populated as deep-dives are written)
+├── tools/                             # Per-protocol deep-dive pages (46 pages populated)
+│   └── (46 tool pages generated from roster)
+│
+├── standards/                         # Per-standard deep references (15 Tier A references populated)
+│   └── (15 standard deep references written)
+│
+├── benchmarks/                        # Benchmark results (README.md with schedule)
+│   └── README.md
 │
 └── assets/                            # Sequence diagrams, conformance charts, spec comparison tables
     └── (populated by editions)
@@ -214,43 +220,33 @@ Content is licensed CC BY 4.0.
 ```json
 {
   "meta": {
-    "name": "AI Protocol Almanac Roster",
+    "name": "Context Protocols, Authentication & Integration Almanac Roster",
     "version": "YYYY-MM",
     "generated_at": "ISO-8601 timestamp",
-    "total_protocols": number,
-    "standards": number,
+    "total_tools": number,
+    "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
     "research_method": "description"
   },
-  "standards": {
-    "standard-key": {
-      "name": "Human-readable name",
-      "description": "What this standard covers",
-      "estimated_total": number,
-      "protocols": [
-        {
-          "name": "Protocol Name",
-          "type": "Standard|SDK|Framework",
-          "license": "License",
-          "region": "Region",
-          "tier": "A|B|C",
-          "transport": "WebSocket|SSE|HTTP|gRPC|Multiple",
-          "governance": "Vendor|Consortium|IETF|W3C|Open Community",
-          "notes": "Description"
-        }
-      ]
+  "category": "context-protocols",
+  "category_name": "Context Protocols, Authentication & Integration",
+  "tools": [
+    {
+      "name": "Tool Name",
+      "type": "Protocol|SDK|Standard|Registry|Gateway|Secrets Mgmt|Security|Auth Platform|Trust|Platform|On-chain|Discovery|Agent Platform|API Key Mgmt",
+      "license": "License",
+      "tier": "A|B|C",
+      "notes": "One-line description and key differentiators"
     }
-  }
+  ]
 }
 ```
 
 **Field definitions**:
-- `name`: The protocol's common name. Use the name the protocol calls itself.
-- `type`: What kind of artifact is it? (e.g., "Standard", "SDK", "Framework", "Implementation")
+- `name`: The tool's common name. Use the name the tool calls itself.
+- `type`: What kind of artifact is it? (e.g., "Protocol", "SDK", "Standard", "Registry", "Gateway", "Secrets Mgmt", "Security", "Auth Platform", "Trust", "Platform", "On-chain", "Discovery", "Agent Platform", "API Key Mgmt")
 - `license`: The primary license. Use SPDX identifiers where possible.
-- `region`: Where the protocol is primarily developed (US, EU, China, Global, etc.)
 - `tier`: A, B, or C (see tier rules above)
-- `transport`: Primary transport mechanism(s) used by the protocol
-- `governance`: Who controls the specification (vendor, consortium, standards body, open community)
+- `notes`: One-line description with key differentiators. Keep under 200 chars.
 - `notes`: One-line description with key differentiators. Keep under 100 chars.
 
 ## Directory Conventions
