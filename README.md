@@ -24,11 +24,11 @@ A living encyclopedia of AI protocols, authentication standards, and integration
 
 **Tier A** — 13 tools: MCP (Model Context Protocol), A2A (Agent-to-Agent), UCP (Universal Commerce Protocol), x402, WIMSE (IETF), AIMS (IETF), SCIM for Agents, Vercel AI SDK, OpenAI Agents SDK, Anthropic SDK…
 
-**Tier B** — 26 tools: ACP (Agent Communication Protocol), ANP (Agent Network Protocol), AP2 (Agent Payments Protocol), MPP (Stripe), Authed, Smithery, Glama, mcp.so, PulseMCP, MCPize…
+**Tier B** — 30 tools: Microsoft Agent Framework, Composio, Claude Managed Agents, ACP (Agent Communication Protocol), ANP (Agent Network Protocol), AP2 (Agent Payments Protocol), MPP (Stripe), Authed, Smithery, Glama, mcp.so, PulseMCP, MCPize…
 
-**Tier C** — 7 tools: AGEX, OAN, NANDA, Agora Protocol, AConP (Cisco), Agent Name Service (ANS), ERC-8004 (Trustless Agents)
+**Tier C** — 7 tools: Agency Swarm, AGEX, OAN, NANDA, Agora Protocol, AConP (Cisco), Agent Name Service (ANS), ERC-8004 (Trustless Agents)
 
-**Total: 46 tools**
+**Total: 50 tools**
 
 ## Methodology
 

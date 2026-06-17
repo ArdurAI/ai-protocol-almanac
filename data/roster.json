@@ -1,9 +1,9 @@
 {
   "meta": {
     "name": "Context Protocols, Authentication & Integration Almanac Roster",
-    "version": "2026-06",
-    "generated_at": "2026-06-16T22:46:00Z",
-    "total_tools": 46,
+    "version": "2026-07",
+    "generated_at": "2026-07-13T00:00:00Z",
+    "total_tools": 50,
     "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
     "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
   },
@@ -141,21 +141,21 @@
       "type": "SDK",
       "license": "Open Source",
       "tier": "A",
-      "notes": "Widely adopted; multi-provider AI apps; TypeScript; 20+ providers; React/Next.js hooks; streaming-first"
+      "notes": "AI SDK 6 (May 2026); agents first-class; full MCP support; 25+ providers; DevTools; tool approval; TypeScript/Next.js"
     },
     {
       "name": "OpenAI Agents SDK",
       "type": "SDK",
       "license": "Open Source",
       "tier": "A",
-      "notes": "10M+ npm/week; OpenAI-native agents; Python/TypeScript; MCP support; handoffs, guardrails, tracing"
+      "notes": "10M+ npm/week; native sandbox Apr 2026; 100+ non-OpenAI LLMs; MCP + AGENTS.md; handoffs, guardrails, tracing"
     },
     {
       "name": "Anthropic SDK",
       "type": "SDK",
       "license": "Open Source",
       "tier": "A",
-      "notes": "High; Claude-native apps; extended thinking, prompt caching, computer use tools"
+      "notes": "Claude-native; extended thinking, prompt caching, computer use; Agent SDK subscription credit (Jun 2026)"
     },
     {
       "name": "Smithery",
@@ -331,6 +331,34 @@
       "license": "Open Source",
       "tier": "B",
       "notes": "1,013 stars (ACP); multi-agent runtime; formerly ACP-powered; now A2A-based"
+    },
+    {
+      "name": "Microsoft Agent Framework",
+      "type": "Agent Platform",
+      "license": "Open Source",
+      "tier": "B",
+      "notes": "1.0 GA Apr 2026; AutoGen + Semantic Kernel unified; .NET/Python; native MCP + A2A"
+    },
+    {
+      "name": "Composio",
+      "type": "Integration Platform",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "100K+ developers; 900+ connectors; Universal MCP Gateway; $29M Series A; Lightspeed"
+    },
+    {
+      "name": "Claude Managed Agents",
+      "type": "Agent Platform",
+      "license": "Commercial",
+      "tier": "B",
+      "notes": "Beta Apr 2026; Anthropic managed runtime; cloud container; MCP servers; sandbox"
+    },
+    {
+      "name": "Agency Swarm",
+      "type": "Agent Framework",
+      "license": "MIT",
+      "tier": "C",
+      "notes": "4,100+ stars; built on OpenAI Agents SDK; organizational metaphor; Python 3.12+"
     }
   ]
 }
